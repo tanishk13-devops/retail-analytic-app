@@ -38,12 +38,12 @@ app.get('/api/dashboard', (req, res) => {
     revenue: {
       value: Math.round(totalRevenue),
       change: 14.2,
-      target: 650000
+      target: 450000000
     },
     salesVolume: {
       value: totalSales,
       change: 8.7,
-      target: 10000
+      target: 400000
     },
     averageOrderValue: {
       value: parseFloat(avgOrderValue.toFixed(2)),

@@ -1,33 +1,33 @@
 {
   "monthlyPerformance": [
-    {"month": "Jun 24", "actualSales": 120000, "legacyForecast": 105000, "optimizedForecast": 118000, "target": 115000},
-    {"month": "Jul 24", "actualSales": 135000, "legacyForecast": 118000, "optimizedForecast": 132000, "target": 125000},
-    {"month": "Aug 24", "actualSales": 142000, "legacyForecast": 120000, "optimizedForecast": 140000, "target": 130000},
-    {"month": "Sep 24", "actualSales": 158000, "legacyForecast": 135000, "optimizedForecast": 155000, "target": 145000},
-    {"month": "Oct 24", "actualSales": 165000, "legacyForecast": 182000, "optimizedForecast": 168000, "target": 150000},
-    {"month": "Nov 24", "actualSales": 195000, "legacyForecast": 165000, "optimizedForecast": 192000, "target": 180000},
-    {"month": "Dec 24", "actualSales": 240000, "legacyForecast": 210000, "optimizedForecast": 235000, "target": 220000},
-    {"month": "Jan 25", "actualSales": 150000, "legacyForecast": 130000, "optimizedForecast": 148000, "target": 140000},
-    {"month": "Feb 25", "actualSales": 145000, "legacyForecast": 165000, "optimizedForecast": 147000, "target": 140000},
-    {"month": "Mar 25", "actualSales": 170000, "legacyForecast": 148000, "optimizedForecast": 168000, "target": 160000},
-    {"month": "Apr 25", "actualSales": 185000, "legacyForecast": 160000, "optimizedForecast": 182000, "target": 175000},
-    {"month": "May 25", "actualSales": 210000, "legacyForecast": 185000, "optimizedForecast": 208000, "target": 200000}
+    {"month": "Jun 24", "actualSales": 12000000, "legacyForecast": 10500000, "optimizedForecast": 11800000, "target": 11500000},
+    {"month": "Jul 24", "actualSales": 13500000, "legacyForecast": 11800000, "optimizedForecast": 13200000, "target": 12500000},
+    {"month": "Aug 24", "actualSales": 14200000, "legacyForecast": 12000000, "optimizedForecast": 14000000, "target": 13000000},
+    {"month": "Sep 24", "actualSales": 15800000, "legacyForecast": 13500000, "optimizedForecast": 15500000, "target": 14500000},
+    {"month": "Oct 24", "actualSales": 16500000, "legacyForecast": 18200000, "optimizedForecast": 16800000, "target": 15000000},
+    {"month": "Nov 24", "actualSales": 19500000, "legacyForecast": 16500000, "optimizedForecast": 19200000, "target": 18000000},
+    {"month": "Dec 24", "actualSales": 24000000, "legacyForecast": 21000000, "optimizedForecast": 23500000, "target": 22000000},
+    {"month": "Jan 25", "actualSales": 15000000, "legacyForecast": 13000000, "optimizedForecast": 14800000, "target": 14000000},
+    {"month": "Feb 25", "actualSales": 14500000, "legacyForecast": 16500000, "optimizedForecast": 14700000, "target": 14000000},
+    {"month": "Mar 25", "actualSales": 17000000, "legacyForecast": 14800000, "optimizedForecast": 16800000, "target": 16000000},
+    {"month": "Apr 25", "actualSales": 18500000, "legacyForecast": 16000000, "optimizedForecast": 18200000, "target": 17500000},
+    {"month": "May 25", "actualSales": 21000000, "legacyForecast": 18500000, "optimizedForecast": 20800000, "target": 20000000}
   ],
   "products": [
-    {"id": "P001", "name": "AeroFit Wireless Earbuds", "category": "Electronics", "price": 89.99, "stock": 45, "sales": 1420, "revenue": 127785.80, "rating": 4.6, "status": "In Stock"},
-    {"id": "P002", "name": "Veloce Running Shoes", "category": "Fashion", "price": 120.00, "stock": 12, "sales": 980, "revenue": 117600.00, "rating": 4.4, "status": "Low Stock"},
-    {"id": "P003", "name": "Ember Ceramic Coffee Mug", "category": "Home & Kitchen", "price": 24.50, "stock": 210, "sales": 2450, "revenue": 60025.00, "rating": 4.8, "status": "In Stock"},
-    {"id": "P004", "name": "Peak Ergonomic Chair", "category": "Home & Kitchen", "price": 349.99, "stock": 4, "sales": 320, "revenue": 111996.80, "rating": 4.5, "status": "Low Stock"},
-    {"id": "P005", "name": "HydraFlow Stainless Bottle", "category": "Sports & Outdoors", "price": 32.00, "stock": 148, "sales": 1820, "revenue": 58240.00, "rating": 4.7, "status": "In Stock"},
-    {"id": "P006", "name": "LumiGlow Facial Serum", "category": "Beauty & Health", "price": 45.00, "stock": 0, "sales": 890, "revenue": 40050.00, "rating": 4.3, "status": "Out of Stock"},
-    {"id": "P007", "name": "Quantum Smart Watch", "category": "Electronics", "price": 199.99, "stock": 35, "sales": 640, "revenue": 127993.60, "rating": 4.5, "status": "In Stock"},
-    {"id": "P008", "name": "FlexiCore Yoga Mat", "category": "Sports & Outdoors", "price": 39.99, "stock": 90, "sales": 1120, "revenue": 44788.80, "rating": 4.6, "status": "In Stock"}
+    {"id": "RELIANCE", "name": "Reliance Retail Portfolio", "category": "Conglomerate", "price": 2850.50, "stock": 4500, "sales": 14200, "revenue": 40477100, "rating": 4.6, "status": "In Stock"},
+    {"id": "TRENT", "name": "Trent Ltd (Westside)", "category": "Apparel & Fashion", "price": 4210.00, "stock": 120, "sales": 9800, "revenue": 41258000, "rating": 4.4, "status": "Low Stock"},
+    {"id": "DMART", "name": "Avenue Supermarts (DMart)", "category": "Hypermarket", "price": 3950.00, "stock": 2100, "sales": 24500, "revenue": 96775000, "rating": 4.8, "status": "In Stock"},
+    {"id": "TITAN", "name": "Titan Company (Tanishq)", "category": "Jewellery & Watches", "price": 3120.00, "stock": 40, "sales": 3200, "revenue": 99840000, "rating": 4.5, "status": "Low Stock"},
+    {"id": "ITC", "name": "ITC Limited (FMCG)", "category": "FMCG & Cigarettes", "price": 432.00, "stock": 14800, "sales": 182000, "revenue": 78624000, "rating": 4.7, "status": "In Stock"},
+    {"id": "NYKAA", "name": "FSN E-Commerce (Nykaa)", "category": "Beauty & Health", "price": 165.00, "stock": 0, "sales": 89000, "revenue": 14685000, "rating": 4.3, "status": "Out of Stock"},
+    {"id": "ZOMATO", "name": "Zomato Ltd (Blinkit)", "category": "Quick Commerce", "price": 185.00, "stock": 3500, "sales": 64000, "revenue": 11840000, "rating": 4.5, "status": "In Stock"},
+    {"id": "TATACONS", "name": "Tata Consumer Products", "category": "Beverages & Foods", "price": 945.00, "stock": 9000, "sales": 11200, "revenue": 10584000, "rating": 4.6, "status": "In Stock"}
   ],
   "recentTransactions": [
-    {"id": "TX1084", "customer": "Sarah Jenkins", "items": 3, "total": 145.50, "time": "10 mins ago", "status": "Completed"},
-    {"id": "TX1083", "customer": "David Miller", "items": 1, "total": 89.99, "time": "24 mins ago", "status": "Completed"},
-    {"id": "TX1082", "customer": "Emma Watson", "items": 5, "total": 312.40, "time": "45 mins ago", "status": "Processing"},
-    {"id": "TX1081", "customer": "James Smith", "items": 2, "total": 64.00, "time": "1 hour ago", "status": "Completed"},
-    {"id": "TX1080", "customer": "Sophia Rodriguez", "items": 1, "total": 120.00, "time": "2 hours ago", "status": "Completed"}
+    {"id": "TX9824", "customer": "Rohan Sharma", "items": 3, "total": 14550.00, "time": "10 mins ago", "status": "Completed"},
+    {"id": "TX9823", "customer": "Deepak Verma", "items": 1, "total": 8999.00, "time": "24 mins ago", "status": "Completed"},
+    {"id": "TX9822", "customer": "Anjali Gupta", "items": 5, "total": 31240.00, "time": "45 mins ago", "status": "Processing"},
+    {"id": "TX9821", "customer": "Sanjay Mehta", "items": 2, "total": 6400.00, "time": "1 hour ago", "status": "Completed"},
+    {"id": "TX9820", "customer": "Priya Iyer", "items": 1, "total": 12000.00, "time": "2 hours ago", "status": "Completed"}
   ]
 }

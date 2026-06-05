@@ -28,7 +28,7 @@ const CustomTooltip = ({ active, payload, label }) => {
             }}></span>
             <span style={{ color: 'var(--text-secondary)' }}>{item.name}:</span>
             <span style={{ color: 'var(--text-primary)', fontWeight: 600, fontFamily: 'var(--font-mono)' }}>
-              ${item.value.toLocaleString()}
+              ₹{item.value.toLocaleString('en-IN')}
             </span>
           </div>
         ))}
@@ -73,7 +73,7 @@ export default function ForecastSimulator() {
         <div className="control-group">
           <div className="control-label-wrapper">
             <span className="control-label">Marketing Spend</span>
-            <span className="control-value">${simulatorParams.marketingSpend.toLocaleString()}</span>
+            <span className="control-value">₹{simulatorParams.marketingSpend.toLocaleString('en-IN')}</span>
           </div>
           <input 
             type="range" 
@@ -211,7 +211,7 @@ export default function ForecastSimulator() {
                     fontSize={11}
                     tickLine={false} 
                     axisLine={false}
-                    tickFormatter={(value) => `$${value}`}
+                    tickFormatter={(value) => `₹${value.toLocaleString('en-IN')}`}
                   />
                   <Tooltip content={<CustomTooltip />} />
                   <Legend verticalAlign="top" height={36} iconType="circle" iconSize={8} wrapperStyle={{ fontSize: '12px' }} />

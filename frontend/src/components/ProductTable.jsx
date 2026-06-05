@@ -22,9 +22,9 @@ export default function ProductTable() {
     <div className="table-card glass-panel fade-in" style={{ animationDelay: '0.2s' }}>
       <div className="table-header">
         <div>
-          <h2 className="chart-title">Product Catalog & Inventory</h2>
+          <h2 className="chart-title">Indian Retail Stocks Catalog</h2>
           <p className="chart-subtitle" style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '0.15rem' }}>
-            Top selling inventory and stock alerts
+            Top consumer retail stock performances and ratings
           </p>
         </div>
       </div>
@@ -32,13 +32,13 @@ export default function ProductTable() {
         <table className="custom-table">
           <thead>
             <tr>
-              <th>ID</th>
-              <th>Product Name</th>
-              <th>Category</th>
-              <th>Price</th>
-              <th>Sales</th>
-              <th>Revenue</th>
-              <th>Rating</th>
+              <th>Ticker</th>
+              <th>Company Name</th>
+              <th>Sub-Sector</th>
+              <th>Share Price (₹)</th>
+              <th>Volume Traded</th>
+              <th>Total Revenue (₹)</th>
+              <th>Analyst Rating</th>
               <th>Status</th>
             </tr>
           </thead>
@@ -48,9 +48,9 @@ export default function ProductTable() {
                 <td style={{ fontFamily: 'var(--font-mono)', fontSize: '0.8rem', color: 'var(--text-muted)' }}>{p.id}</td>
                 <td style={{ fontWeight: 600 }}>{p.name}</td>
                 <td>{p.category}</td>
-                <td style={{ fontFamily: 'var(--font-mono)' }}>${p.price.toFixed(2)}</td>
-                <td style={{ fontFamily: 'var(--font-mono)' }}>{p.sales.toLocaleString()}</td>
-                <td style={{ fontFamily: 'var(--font-mono)', fontWeight: 500 }}>${p.revenue.toLocaleString()}</td>
+                <td style={{ fontFamily: 'var(--font-mono)' }}>₹{p.price.toLocaleString('en-IN', { minimumFractionDigits: 2 })}</td>
+                <td style={{ fontFamily: 'var(--font-mono)' }}>{p.sales.toLocaleString('en-IN')}</td>
+                <td style={{ fontFamily: 'var(--font-mono)', fontWeight: 500 }}>₹{p.revenue.toLocaleString('en-IN')}</td>
                 <td style={{ whiteSpace: 'nowrap' }}>⭐ {p.rating}</td>
                 <td>{getStatusBadge(p.status)}</td>
               </tr>

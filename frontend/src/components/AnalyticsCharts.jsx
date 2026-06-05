@@ -32,9 +32,9 @@ const CustomTooltip = ({ active, payload, label }) => {
             }}></span>
             <span style={{ color: 'var(--text-secondary)' }}>{item.name}:</span>
             <span style={{ color: 'var(--text-primary)', fontWeight: 600, fontFamily: 'var(--font-mono)' }}>
-              {typeof item.value === 'number' && item.name.toLowerCase().includes('sales') || item.name.toLowerCase().includes('target') || item.name.toLowerCase().includes('forecast') || item.name.toLowerCase().includes('revenue')
-                ? `$${item.value.toLocaleString()}`
-                : item.value.toLocaleString()}
+              {typeof item.value === 'number' && (item.name.toLowerCase().includes('sales') || item.name.toLowerCase().includes('target') || item.name.toLowerCase().includes('forecast') || item.name.toLowerCase().includes('revenue'))
+                ? `₹${item.value.toLocaleString('en-IN')}`
+                : item.value.toLocaleString('en-IN')}
             </span>
           </div>
         ))}
@@ -111,7 +111,7 @@ export default function AnalyticsCharts() {
                 fontSize={11}
                 tickLine={false} 
                 axisLine={false}
-                tickFormatter={(value) => `$${value / 1000}k`}
+                tickFormatter={(value) => `₹${value / 100000}L`}
               />
               <Tooltip content={<CustomTooltip />} />
               <Area 
@@ -162,7 +162,7 @@ export default function AnalyticsCharts() {
                 fontSize={10}
                 tickLine={false} 
                 axisLine={false}
-                tickFormatter={(value) => `$${value / 1000}k`}
+                tickFormatter={(value) => `₹${value / 100000}L`}
               />
               <Tooltip content={<CustomTooltip />} />
               <Bar 
@@ -238,7 +238,7 @@ export default function AnalyticsCharts() {
                 fontSize={11}
                 tickLine={false} 
                 axisLine={false}
-                tickFormatter={(value) => `$${value / 1000}k`}
+                tickFormatter={(value) => `₹${value / 100000}L`}
               />
               <Tooltip content={<CustomTooltip />} />
               <Legend verticalAlign="top" height={36} iconType="circle" iconSize={8} wrapperStyle={{ fontSize: '12px' }} />

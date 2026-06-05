@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDashboard } from '../context/DashboardContext';
-import { DollarSign, ShoppingBag, CreditCard, Percent, ArrowUpRight, ArrowDownRight } from 'lucide-react';
+import { IndianRupee, ShoppingBag, CreditCard, Percent, ArrowUpRight, ArrowDownRight } from 'lucide-react';
 
 export default function SummaryCards() {
   const { dashboardData } = useDashboard();
@@ -10,24 +10,24 @@ export default function SummaryCards() {
 
   const cardDetails = [
     {
-      title: "Total Revenue",
-      value: `$${summary.revenue.value.toLocaleString()}`,
+      title: "Total Portfolio Value",
+      value: `₹${summary.revenue.value.toLocaleString('en-IN')}`,
       change: `+${summary.revenue.change}%`,
       trend: "up",
-      icon: DollarSign,
+      icon: IndianRupee,
       className: "revenue-card"
     },
     {
       title: "Sales Volume",
-      value: summary.salesVolume.value.toLocaleString(),
+      value: summary.salesVolume.value.toLocaleString('en-IN'),
       change: `+${summary.salesVolume.change}%`,
       trend: "up",
       icon: ShoppingBag,
       className: "sales-card"
     },
     {
-      title: "Avg. Order Value",
-      value: `$${summary.averageOrderValue.value.toFixed(2)}`,
+      title: "Avg. Stock Value",
+      value: `₹${summary.averageOrderValue.value.toLocaleString('en-IN')}`,
       change: `+${summary.averageOrderValue.change}%`,
       trend: "up",
       icon: CreditCard,
