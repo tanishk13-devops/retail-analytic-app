@@ -41,10 +41,10 @@ export default function Sidebar() {
       </nav>
 
       <div className="sidebar-footer">
-        <div className="user-avatar">AD</div>
+        <div className="user-avatar">TJ</div>
         <div style={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
-          <span className="user-info-name">Alex Danvers</span>
-          <span className="user-info-role">Analytics Lead</span>
+          <span className="user-info-name">Tanishk Jaiswal</span>
+          <span className="user-info-role">Lead Analyst</span>
         </div>
         <div 
           className="api-status" 
