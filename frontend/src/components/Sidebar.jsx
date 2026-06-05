@@ -40,7 +40,26 @@ export default function Sidebar() {
         </div>
       </nav>
 
-      <div className="sidebar-footer">
+      <div style={{
+        marginTop: 'auto',
+        borderTop: '1px solid var(--glass-border)',
+        paddingTop: '1.25rem',
+        paddingBottom: '0.25rem',
+        paddingLeft: '0.5rem',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '0.4rem'
+      }}>
+        <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Developed by</div>
+        <div style={{ fontSize: '0.9rem', fontWeight: 600, color: 'var(--text-primary)' }}>Tanishk Jaiswal</div>
+        <div style={{ display: 'flex', gap: '0.75rem', fontSize: '0.8rem' }}>
+          <a href="https://github.com/tanishk13-devops" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-cyan)', textDecoration: 'none', fontWeight: 500 }}>GitHub</a>
+          <span style={{ color: 'var(--glass-border)' }}>|</span>
+          <a href="https://linkedin.com/in/tanishk-jaiswal" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-purple)', textDecoration: 'none', fontWeight: 500 }}>LinkedIn</a>
+        </div>
+      </div>
+
+      <div className="sidebar-footer" style={{ marginTop: '0.75rem' }}>
         <div className="user-avatar">TJ</div>
         <div style={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
           <span className="user-info-name">Tanishk Jaiswal</span>
