@@ -10,7 +10,7 @@ export default function SummaryCards() {
 
   const cardDetails = [
     {
-      title: "Total Portfolio Value",
+      title: "Total Revenue",
       value: `₹${summary.revenue.value.toLocaleString('en-IN')}`,
       change: `+${summary.revenue.change}%`,
       trend: "up",
@@ -26,7 +26,7 @@ export default function SummaryCards() {
       className: "sales-card"
     },
     {
-      title: "Avg. Stock Value",
+      title: "Avg. Order Value",
       value: `₹${summary.averageOrderValue.value.toLocaleString('en-IN')}`,
       change: `+${summary.averageOrderValue.change}%`,
       trend: "up",

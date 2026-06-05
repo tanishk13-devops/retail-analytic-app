@@ -22,9 +22,9 @@ export default function ProductTable() {
     <div className="table-card glass-panel fade-in" style={{ animationDelay: '0.2s' }}>
       <div className="table-header">
         <div>
-          <h2 className="chart-title">Indian Retail Stocks Catalog</h2>
+          <h2 className="chart-title">Indian Retail Products Catalog</h2>
           <p className="chart-subtitle" style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '0.15rem' }}>
-            Top consumer retail stock performances and ratings
+            Top selling products and customer ratings
           </p>
         </div>
       </div>
@@ -32,13 +32,13 @@ export default function ProductTable() {
         <table className="custom-table">
           <thead>
             <tr>
-              <th>Ticker</th>
-              <th>Company Name</th>
-              <th>Sub-Sector</th>
-              <th>Share Price (₹)</th>
-              <th>Volume Traded</th>
-              <th>Total Revenue (₹)</th>
-              <th>Analyst Rating</th>
+              <th>Product ID</th>
+              <th>Product Name</th>
+              <th>Category</th>
+              <th>Price (₹)</th>
+              <th>Units Sold</th>
+              <th>Revenue (₹)</th>
+              <th>Customer Rating</th>
               <th>Status</th>
             </tr>
           </thead>

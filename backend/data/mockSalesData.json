@@ -14,14 +14,14 @@
     {"month": "May 25", "actualSales": 21000000, "legacyForecast": 18500000, "optimizedForecast": 20800000, "target": 20000000}
   ],
   "products": [
-    {"id": "RELIANCE", "name": "Reliance Retail Portfolio", "category": "Conglomerate", "price": 2850.50, "stock": 4500, "sales": 14200, "revenue": 40477100, "rating": 4.6, "status": "In Stock"},
-    {"id": "TRENT", "name": "Trent Ltd (Westside)", "category": "Apparel & Fashion", "price": 4210.00, "stock": 120, "sales": 9800, "revenue": 41258000, "rating": 4.4, "status": "Low Stock"},
-    {"id": "DMART", "name": "Avenue Supermarts (DMart)", "category": "Hypermarket", "price": 3950.00, "stock": 2100, "sales": 24500, "revenue": 96775000, "rating": 4.8, "status": "In Stock"},
-    {"id": "TITAN", "name": "Titan Company (Tanishq)", "category": "Jewellery & Watches", "price": 3120.00, "stock": 40, "sales": 3200, "revenue": 99840000, "rating": 4.5, "status": "Low Stock"},
-    {"id": "ITC", "name": "ITC Limited (FMCG)", "category": "FMCG & Cigarettes", "price": 432.00, "stock": 14800, "sales": 182000, "revenue": 78624000, "rating": 4.7, "status": "In Stock"},
-    {"id": "NYKAA", "name": "FSN E-Commerce (Nykaa)", "category": "Beauty & Health", "price": 165.00, "stock": 0, "sales": 89000, "revenue": 14685000, "rating": 4.3, "status": "Out of Stock"},
-    {"id": "ZOMATO", "name": "Zomato Ltd (Blinkit)", "category": "Quick Commerce", "price": 185.00, "stock": 3500, "sales": 64000, "revenue": 11840000, "rating": 4.5, "status": "In Stock"},
-    {"id": "TATACONS", "name": "Tata Consumer Products", "category": "Beverages & Foods", "price": 945.00, "stock": 9000, "sales": 11200, "revenue": 10584000, "rating": 4.6, "status": "In Stock"}
+    {"id": "AP001", "name": "Amul Butter (500g)", "category": "Dairy & FMCG", "price": 275.00, "stock": 4500, "sales": 14200, "revenue": 3905000, "rating": 4.8, "status": "In Stock"},
+    {"id": "AP002", "name": "Tata Salt (1kg)", "category": "Food & FMCG", "price": 28.00, "stock": 12000, "sales": 98000, "revenue": 2744000, "rating": 4.6, "status": "In Stock"},
+    {"id": "AP003", "name": "Royal Enfield Classic 350", "category": "Automotive", "price": 220000.00, "stock": 12, "sales": 320, "revenue": 70400000, "rating": 4.7, "status": "Low Stock"},
+    {"id": "AP004", "name": "Britannia Good Day Biscuits", "category": "Food & FMCG", "price": 50.00, "stock": 21000, "sales": 145000, "revenue": 7250000, "rating": 4.5, "status": "In Stock"},
+    {"id": "AP005", "name": "Fabindia Cotton Kurta", "category": "Apparel & Fashion", "price": 1899.00, "stock": 140, "sales": 1820, "revenue": 3456180, "rating": 4.4, "status": "In Stock"},
+    {"id": "AP006", "name": "Maggi 2-Min Noodles (12-Pack)", "category": "Food & FMCG", "price": 168.00, "stock": 0, "sales": 89000, "revenue": 14952000, "rating": 4.8, "status": "Out of Stock"},
+    {"id": "AP007", "name": "Bajaj Pulsar 150", "category": "Automotive", "price": 115000.00, "stock": 35, "sales": 640, "revenue": 73600000, "rating": 4.5, "status": "In Stock"},
+    {"id": "AP008", "name": "Himalaya Neem Face Wash (150ml)", "category": "Beauty & Health", "price": 195.00, "stock": 9000, "sales": 11200, "revenue": 2184000, "rating": 4.6, "status": "In Stock"}
   ],
   "recentTransactions": [
     {"id": "TX9824", "customer": "Rohan Sharma", "items": 3, "total": 14550.00, "time": "10 mins ago", "status": "Completed"},
